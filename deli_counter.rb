@@ -9,4 +9,5 @@ def line(array)
       final_string = line_string << ": #{number}. #{name}."
     end
   end
+  puts final_string
 end
