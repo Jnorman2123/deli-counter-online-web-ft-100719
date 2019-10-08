@@ -22,6 +22,6 @@ def now_serving(array)
   if array.length < 1
     puts "There is nobody waiting to be served."
   else
-    puts "Now serving number 1."
+    puts "Now serving #{array[0]}."
   end
 end
