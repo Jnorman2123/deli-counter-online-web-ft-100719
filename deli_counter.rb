@@ -1,11 +1,10 @@
 
 def line(array)
-  array.each_with_index do |name, number|
-    number = 0
-    if name.length < 1
-      puts "The line is currently empty."
-    else
-      puts "Welcome, #{name}. You are number #{number} in line."
+  if array.length < 1
+    puts "The line is currently empty."
+  else
+    array.each_with_index do |name, number|
+      puts "Welcome #{name}. You are number #{number + 1} in line."
     end
   end
 end
