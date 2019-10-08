@@ -19,5 +19,9 @@ end
 
 
 def now_serving(array)
-
+  if array.length < 1
+    puts "The line is currently empty."
+  else
+    puts "Now serving number 1."
+  end 
 end
