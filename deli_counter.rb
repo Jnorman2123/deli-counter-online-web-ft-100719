@@ -1,6 +1,6 @@
 
 def line(array)
-  line_string 
+  line_string
   if array.length < 1
     puts "The line is currently empty."
   else
