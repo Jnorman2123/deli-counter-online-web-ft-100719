@@ -20,7 +20,7 @@ end
 
 def now_serving(array)
   if array.length < 1
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served."
   else
     puts "Now serving number 1."
   end
