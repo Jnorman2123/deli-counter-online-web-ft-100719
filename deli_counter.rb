@@ -8,6 +8,6 @@ def line(array)
     array.each_with_index do |name, number|
       final_string = line_string << ": #{number}. #{name}."
     end
+    puts final_string 
   end
-  puts final_string
 end
