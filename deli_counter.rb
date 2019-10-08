@@ -10,3 +10,8 @@ def line(array)
     puts line_string
   end
 end
+
+
+def take_a_number(array, string)
+
+end 
