@@ -13,10 +13,10 @@ end
 
 
 def take_a_number(array, name)
-  if array.length < 1
+  # if array.length < 1
     array << "#{name}"
     puts "Welcome, #{name}. You are number #{array.index("#{name}") + 1} in line."
-  else
-    puts "Welcome, #{name}. You are number #{array.index("#{name}")} in line."
-  end
+  # else
+  #   puts "Welcome, #{name}. You are number #{array.index("#{name}")} in line."
+  # end
 end
